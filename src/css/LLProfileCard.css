@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.LLProfileCard-container {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  background-color: #01addb;
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.LLProfileCard-container img {
+  width: 60%;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 10px 25px 1px #008ab1;
+          box-shadow: 5px 10px 25px 1px #008ab1;
+  margin-bottom: 4rem;
+}
+
+.LLProfileCard-container p {
+  color: black;
+}
+/*# sourceMappingURL=LLProfileCard.css.map */

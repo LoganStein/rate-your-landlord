@@ -1,0 +1,19 @@
+@import "./variables";
+
+.signIn-container {
+  @include flexCenter;
+  flex-direction: column;
+  margin: 30vh auto;
+  height: 20vh;
+  width: 25%;
+  background-color: $light;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 7rem 2rem;
+  input {
+    margin-top: 1rem;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.landlord-header {
+  height: 298px;
+  width: 100%;
+  background-color: #0084a8;
+  overflow: hidden;
+}
+
+.landlord-header img {
+  width: 100%;
+  margin-top: -10rem;
+}
+
+.landlord-reviews-feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.landlord-reviews-feed h2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.landlord-info {
+  width: 70%;
+  margin-left: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.landlord-info p {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.landlord-header-properties {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.landlord-header-cell-one {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.landlord-property-cards-container {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Landlord.css.map */

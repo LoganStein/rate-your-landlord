@@ -1,0 +1,17 @@
+@import "./variables";
+
+.PFP-container {
+  border-radius: 50%;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 36px;
+  top: 282px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.PFP-img {
+  border-radius: 50%;
+  width: 100%;
+}

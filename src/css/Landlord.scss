@@ -1,0 +1,55 @@
+@import "./variables";
+
+.landlord-header {
+  height: 298px;
+  width: 100%;
+  background-color: $heroBackgroundColor;
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: -10rem;
+  }
+}
+
+.landlord-reviews-feed {
+  @include flexCenter;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  h2 {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+}
+
+.landlord-info {
+  // position: absolute;
+  width: 70%;
+  margin-left: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  p {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+.landlord-header-properties {
+  grid-row: 3;
+  grid-column: 1;
+  justify-self: start;
+}
+
+.landlord-header-cell-one {
+  grid-row: 1;
+  grid-column: 1;
+  justify-self: start;
+}
+
+.landlord-property-cards-container {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 1rem;
+  @include flexSpaceEvenly;
+}

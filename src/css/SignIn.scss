@@ -1,0 +1,24 @@
+@import "./variables";
+
+.signUpBTN {
+  cursor: pointer;
+  background-color: $accentColor;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  p {
+    color: white;
+  }
+}
+
+.signInBTN {
+  cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}

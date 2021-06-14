@@ -1,0 +1,17 @@
+@import "./variables";
+
+.new-review {
+  width: 70%;
+  min-height: 20vh;
+  textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 20vh;
+  }
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

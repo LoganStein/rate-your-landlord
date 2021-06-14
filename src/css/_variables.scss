@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+$accentColor: #44bfe1;
+$dark: #00485c;
+$light: rgb(241, 241, 241);
+$searchbar-color: rgb(241, 241, 241);
+$heroStartColor: rgb(73, 163, 247);
+$heroEndColor: rgb(68, 192, 223);
+$profileCardBackground: #01addb;
+$profileCardShadow: #008ab1;
+
+$heroBackgroundColor: #0084a8;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexSpaceEvenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin grid3x3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}

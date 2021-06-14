@@ -1,0 +1,22 @@
+@import "./variables";
+
+.LLProfileCard-container {
+  cursor: pointer;
+  @include flexSpaceEvenly;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: $profileCardBackground;
+  border-radius: 1rem;
+  width: 15rem;
+  // height: 20rem;
+  img {
+    width: 60%;
+    background-color: $light;
+    border-radius: 50%;
+    box-shadow: 5px 10px 25px 1px $profileCardShadow;
+    margin-bottom: 4rem;
+  }
+  p {
+    color: black;
+  }
+}
